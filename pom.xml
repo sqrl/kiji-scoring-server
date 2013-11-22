@@ -246,6 +246,10 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>org.kiji.maven.plugins</groupId>
+        <artifactId>hbase-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
         <!--
             ScoringServer depends on the oldest version of KijiSchema / KIJIMR that supports it.
             To test whether the latest Kiji dependency SNAPSHOTs have introduced a regression:
